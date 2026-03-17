@@ -9,14 +9,14 @@ import { useEffect, useState } from 'react';
 const upcomingEvents = [
   {
     id: 1,
-    title: 'Animation Workshop: Character Design',
-    date: 'January 15, 2026',
-    time: '4:00 PM - 6:00 PM',
-    location: 'Design Studio, Room 302',
+    title: 'PixelCraft Animation Expo',
+    date: 'March 28, 2026',
+    time: '9:30 AM - 12:30 PM',
+    location: 'PCCOER Building, Room 512 and 513',
     description: 'Learn the fundamentals of character design for animation. From concept sketches to final designs, master the art of creating memorable characters.',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop',
     featured: true,
-    targetDate: new Date('2026-01-15T16:00:00'),
+    targetDate: new Date('2026-03-28T09:30:00'),
   },
   {
     id: 2,
@@ -218,10 +218,12 @@ const Events = () => {
                     </div>
                   </div>
 
-                  <Button variant="hero" size="xl">
-                    Reserve Your Spot
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
+                <a href="https://forms.gle/kT4FBx7ACumDdGjz8" target="_blank" rel="noopener noreferrer">
+  <Button variant="hero" size="xl">
+    Register Now
+    <ArrowRight className="w-5 h-5 ml-2" />
+  </Button>
+</a>
                 </motion.div>
               </div>
 
